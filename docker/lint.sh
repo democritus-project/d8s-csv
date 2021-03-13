@@ -4,17 +4,17 @@ set -euxo pipefail
 
 echo "Running linters and formatters..."
 
-isort democritus_csv/ tests/
+isort d8s_csv/ tests/
 
-black democritus_csv/ tests/
+black d8s_csv/ tests/
 
-mypy democritus_csv/ tests/
+mypy d8s_csv/ tests/
 
-pylint --fail-under 9 democritus_csv/*.py
+pylint --fail-under 9 d8s_csv/*.py
 
-flake8 democritus_csv/ tests/
+flake8 d8s_csv/ tests/
 
-bandit -r democritus_csv/
+bandit -r d8s_csv/
 
 # we run black again at the end to undo any odd changes made by any of the linters above
-black democritus_csv/ tests/
+black d8s_csv/ tests/
