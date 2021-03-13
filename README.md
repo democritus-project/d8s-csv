@@ -1,8 +1,8 @@
 # Democritus CSV
 
-[![PyPI](https://img.shields.io/pypi/v/democritus-csv.svg)](https://pypi.python.org/pypi/democritus-csv)
-[![Build Status](https://travis-ci.com/democritus-project/democritus-csv.svg?branch=main)](https://travis-ci.com/democritus-project/democritus-csv)
-[![codecov](https://codecov.io/gh/democritus-project/democritus-csv/branch/main/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/democritus-csv)
+[![PyPI](https://img.shields.io/pypi/v/d8s-csv.svg)](https://pypi.python.org/pypi/d8s-csv)
+[![Build Status](https://travis-ci.com/democritus-project/d8s-csv.svg?branch=main)](https://travis-ci.com/democritus-project/d8s-csv)
+[![codecov](https://codecov.io/gh/democritus-project/d8s-csv/branch/main/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/d8s-csv)
 
 Democritus functions<sup>[1]</sup> for working with CSV, TSV, and other ____ Separated Values.
 

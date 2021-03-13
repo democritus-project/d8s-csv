@@ -1,4 +1,4 @@
-from democritus_csv import csv_read_as_dict, csv_read_as_list
+from d8s_csv import csv_read_as_dict, csv_read_as_list
 
 TEXT_COMMA_DELIMITED = "foo,bar\n1,2"
 TEXT_TAB_DELIMITED = "foo\tbar\n1\t2"
