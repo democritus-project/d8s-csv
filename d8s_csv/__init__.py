@@ -6,10 +6,10 @@ except ImportError:
 from .csv_data import *
 
 try:
-    __version__ = version('democritus_csv')
+    __version__ = version('d8s_csv')
 except PackageNotFoundError:
     message = (
-        'Unable to find a version number for "democritus_csv". '
+        'Unable to find a version number for "d8s_csv". '
         + 'This likely means the library was not installed properly. '
         + 'Please re-install it and, if the problem persists, '
         + 'raise an issue here: https://github.com/democritus-project/democritus-csv/issues.'
