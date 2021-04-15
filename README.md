@@ -14,9 +14,16 @@ Democritus functions<sup>[1]</sup> for working with CSV, TSV, and other ____ Sep
 
 We use `d8s` as an abbreviation for `democritus` (you can read more about this [here](https://github.com/democritus-project/roadmap#what-is-d8s)).
 
-## Usage
+## Functions
 
-Coming soon...
+  - ```python
+    def csv_read_as_list(csv_data: str, **kwargs):
+        """Read the csv_data as a list."""
+    ```
+  - ```python
+    def csv_read_as_dict(csv_data: str, **kwargs):
+        """Read the csv_data as a dict."""
+    ```
 
 ## Development
 
