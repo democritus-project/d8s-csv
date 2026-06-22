@@ -5,20 +5,20 @@ TEXT_TAB_DELIMITED = "foo\tbar\n1\t2"
 
 
 def test_csv_read_docs_1():
-    assert tuple(csv_read_as_list(TEXT_COMMA_DELIMITED)) == (['foo', 'bar'], ['1', '2'])
-    assert tuple(csv_read_as_list(TEXT_TAB_DELIMITED, delimiter='\t')) == (['foo', 'bar'], ['1', '2'])
+    assert tuple(csv_read_as_list(TEXT_COMMA_DELIMITED)) == (["foo", "bar"], ["1", "2"])
+    assert tuple(csv_read_as_list(TEXT_TAB_DELIMITED, delimiter="\t")) == (["foo", "bar"], ["1", "2"])
 
 
 def test_csv_read_string_docs_1():
-    assert tuple(csv_read_as_list(TEXT_COMMA_DELIMITED)) == (['foo', 'bar'], ['1', '2'])
-    assert tuple(csv_read_as_list(TEXT_TAB_DELIMITED, delimiter='\t')) == (
-        ['foo', 'bar'],
-        ['1', '2'],
+    assert tuple(csv_read_as_list(TEXT_COMMA_DELIMITED)) == (["foo", "bar"], ["1", "2"])
+    assert tuple(csv_read_as_list(TEXT_TAB_DELIMITED, delimiter="\t")) == (
+        ["foo", "bar"],
+        ["1", "2"],
     )
 
 
 def test_csv_read_as_dict_docs_1():
-    assert tuple(csv_read_as_dict(TEXT_COMMA_DELIMITED)) == ({'foo': '1', 'bar': '2'},)
+    assert tuple(csv_read_as_dict(TEXT_COMMA_DELIMITED)) == ({"foo": "1", "bar": "2"},)
 
 
 # @pytest.mark.network
